@@ -1,0 +1,77 @@
+.latest-card {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0f172a;
+  border-radius: 10px;
+  font-family: 'Bree Serif';
+  flex-wrap: wrap;
+}
+
+.left-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+}
+
+.latest-heading {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.date-match {
+  font-size: 26px;
+}
+
+.venue-match {
+  font-size: 16px;
+}
+
+.latest-image {
+  width: 160px;
+  height: 100px;
+
+  align-self: center;
+}
+
+.right-holder {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-self: flex-start;
+  text-align: left;
+}
+
+.latest-innings {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.values-latest {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-image {
+    width: 260px;
+    height: 200px;
+    margin-right: 46px;
+    align-self: center;
+  }
+
+  .latest-card {
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .right-holder {
+    align-self: flex-end;
+    justify-content: center;
+    text-align: right;
+  }
+}
